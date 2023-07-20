@@ -2,9 +2,9 @@
 /**
  * print_alphabet_x10 - Print 10 times the alphabet in lowercase
  *
- * Return:0 (success)
+ * Return: 0 (success)
  */
-int void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	int j;
@@ -17,3 +17,4 @@ int void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
+}
